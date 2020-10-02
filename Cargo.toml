@@ -1,0 +1,13 @@
+[package]
+name = "sph"
+version = "0.1.0"
+authors = ["Jack"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glfw = "0.40.0"
+cgmath = "0.17.0"
+rgl = { path = "../rgl" }
+rand = "0.7.3"
